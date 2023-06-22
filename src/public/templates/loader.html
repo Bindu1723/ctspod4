@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div v-if="showComponentH" class="col-lg-12">
+      <adComponentH />
+    </div>
+  </div>
+  <div class="row">
+    <div v-if="showComponentV1" class="col-md-2">
+      <adComponentV />
+    </div>
+    <div class="col-md-8">
+      <contentComponent />
+    </div>
+    <div v-if="showComponentV2" class="col-md-2">
+      <adComponentH />
+    </div>
+  </div>
+</div>

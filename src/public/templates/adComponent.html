@@ -1,0 +1,22 @@
+<!-- <div class="container" style="background-color: red">
+  <div class="row">
+    <div class="col">
+      <center>
+        <h3>Ad Content</h3>
+      </center>
+      <img id="images" v-for="id1 in imageIds1" :key="id1" :src="`https://picsum.photos/id/${id1}/150/150`"
+        class="img-fluid" />
+    </div>
+  </div>
+</div> -->
+
+<div class="container" style="background-color: red">
+  <div class="row">
+    <div class="col">
+      <center>
+        <h3>Ad Content</h3>
+      </center>
+      <img id="images" v-for="ad in ads" :key="ad" :src="`${ad.imageUrl}`" class="img-fluid" />
+    </div>
+  </div>
+</div>

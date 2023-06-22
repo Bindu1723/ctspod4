@@ -1,0 +1,29 @@
+#para {
+  text-align: justify;
+}
+
+#content-heading {
+  font-size: 32px;
+}
+
+@media (max-width: 767px) {
+  #content-heading {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #content-heading {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #content-heading {
+    font-size: 30px;
+  }
+}
+
+#images {
+  margin-bottom: 30px;
+}
