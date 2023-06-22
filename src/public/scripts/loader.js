@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import contentComponent from '../../components/contentComponent.vue';
 import adComponentH from '../../components/adComponentH.vue';
 import adComponentV from '../../components/adComponentV.vue';
+import adComponentV2 from '../../components/adComponentV.vue';
 import config from '@/config/config';
 
 export default {
@@ -9,6 +10,7 @@ export default {
   components: {
     contentComponent,
     adComponentH,
+    adComponentV2,
     adComponentV,
   },
   data() {
